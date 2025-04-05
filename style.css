@@ -343,3 +343,24 @@ body{
 .lucide-arrow-up{
 	stroke: green;
 }
+
+.back-button-wrapper{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	background: #333;
+}
+.back-button{
+	height: 60px;
+	width: 60px;
+	background: var(--leve1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(180deg);
+}
+.back-button svg{
+	stroke: #000;
+}
